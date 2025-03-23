@@ -89,8 +89,8 @@ public class Main
             System.out.println("Всего листов бумаги на 3 класса " + sheetOfPaper);
             int totalStudents = teacherOne + teacherTwo + teacherThree;
             System.out.println("Всего учеников " + totalStudents);
-            int papersForTheStudent = sheetOfPaper / totalStudents;
-            System.out.println("На каждого ученика рассчитано " + papersForTheStudent
+            int papersPerStudent = sheetOfPaper / totalStudents;
+            System.out.println("На каждого ученика рассчитано " + papersPerStudent
                                        + " листов бумаги");
             byte bottle = 16;
             byte time = 2;
@@ -132,7 +132,8 @@ public class Main
             int breakfast = banana + milk + iceCream + egg;
             System.out.println("В спортзавтраке  " + breakfast + " грамм");
             float breakfastK = breakfast / 1000F;
-            System.out.println("В спортзавтраке " + breakfastK + " килограмм");
+            System.out.println("В спортзавтраке " + breakfastK + " килограмм\n\n");
+            System.out.println();
 
             byte loseWeight = 7;
             int diet1 = 250;
@@ -143,7 +144,7 @@ public class Main
             System.out.println(diet1Day + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
             System.out.println(diet2Day + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм");
             int averageDay = (diet1Day + diet2Day) / 2;
-            System.out.println(averageDay + " дней в среднем уйдет на похудение");
+            System.out.println(averageDay + " дней в среднем уйдет на похудение\n");
 
             int mariaMount = 67760;
             int denisMount = 83690;
@@ -162,7 +163,7 @@ public class Main
             System.out.println("Денис теперь получает " + denisMountNew + "рублей. Годовой доход вырос на " +
                                        +denis + " рублей");
             System.out.println("Кристина теперь получает " + kristinMountNew + "рублей. Годовой доход вырос на " +
-                                       +kristin + " рублей");
+                                       +kristin + " рублей\n");
 
         }
     }
